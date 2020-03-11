@@ -59,6 +59,8 @@ function filter() {
             // debugger
             if (breed.innerText[0] !== letter) {
                 breed.style = "display:none"
+            } else {
+                breed.style = ""
             }
         }
     })
